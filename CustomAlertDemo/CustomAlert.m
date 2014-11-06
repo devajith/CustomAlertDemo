@@ -242,6 +242,7 @@
 
 -(void)addAndbindViewWithContraints{
     
+    self.backgroundColor=[UIColor colorWithRed:0 green:0 blue:0 alpha:.8];
     
     UIWindow *window=[[UIApplication sharedApplication] keyWindow];
     [window addSubview:self];
