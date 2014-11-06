@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB4033941A0BE31F00CC598E /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4033931A0BE31F00CC598E /* 4.png */; };
+		AB4033961A0BE36F00CC598E /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4033951A0BE36F00CC598E /* 5.png */; };
+		AB4033981A0BE3E200CC598E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4033971A0BE3E200CC598E /* 3.png */; };
 		AB87A6771A0680C80093C86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB87A6761A0680C80093C86C /* main.m */; };
 		AB87A67A1A0680C80093C86C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB87A6791A0680C80093C86C /* AppDelegate.m */; };
 		AB87A67D1A0680C80093C86C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB87A67C1A0680C80093C86C /* ViewController.m */; };
@@ -14,6 +17,7 @@
 		AB87A6821A0680C80093C86C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB87A6811A0680C80093C86C /* Images.xcassets */; };
 		AB87A6851A0680C80093C86C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB87A6831A0680C80093C86C /* LaunchScreen.xib */; };
 		AB87A6911A0680C80093C86C /* CustomAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB87A6901A0680C80093C86C /* CustomAlertDemoTests.m */; };
+		AB87A69C1A0680E10093C86C /* CustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AB87A69A1A0680E10093C86C /* CustomAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB4033931A0BE31F00CC598E /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		AB4033951A0BE36F00CC598E /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		AB4033971A0BE3E200CC598E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		AB87A6711A0680C80093C86C /* CustomAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB87A6751A0680C80093C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB87A6761A0680C80093C86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,8 @@
 		AB87A68A1A0680C80093C86C /* CustomAlertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB87A68F1A0680C80093C86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB87A6901A0680C80093C86C /* CustomAlertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertDemoTests.m; sourceTree = "<group>"; };
+		AB87A69A1A0680E10093C86C /* CustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlert.m; sourceTree = "<group>"; };
+		AB87A69B1A0680E10093C86C /* CustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlert.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +94,12 @@
 				AB87A6791A0680C80093C86C /* AppDelegate.m */,
 				AB87A67B1A0680C80093C86C /* ViewController.h */,
 				AB87A67C1A0680C80093C86C /* ViewController.m */,
+				AB87A69A1A0680E10093C86C /* CustomAlert.m */,
+				AB87A69B1A0680E10093C86C /* CustomAlert.h */,
 				AB87A67E1A0680C80093C86C /* Main.storyboard */,
+				AB4033971A0BE3E200CC598E /* 3.png */,
+				AB4033951A0BE36F00CC598E /* 5.png */,
+				AB4033931A0BE31F00CC598E /* 4.png */,
 				AB87A6811A0680C80093C86C /* Images.xcassets */,
 				AB87A6831A0680C80093C86C /* LaunchScreen.xib */,
 				AB87A6741A0680C80093C86C /* Supporting Files */,
@@ -201,7 +215,10 @@
 			files = (
 				AB87A6801A0680C80093C86C /* Main.storyboard in Resources */,
 				AB87A6851A0680C80093C86C /* LaunchScreen.xib in Resources */,
+				AB4033961A0BE36F00CC598E /* 5.png in Resources */,
 				AB87A6821A0680C80093C86C /* Images.xcassets in Resources */,
+				AB4033941A0BE31F00CC598E /* 4.png in Resources */,
+				AB4033981A0BE3E200CC598E /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +239,7 @@
 				AB87A67D1A0680C80093C86C /* ViewController.m in Sources */,
 				AB87A67A1A0680C80093C86C /* AppDelegate.m in Sources */,
 				AB87A6771A0680C80093C86C /* main.m in Sources */,
+				AB87A69C1A0680E10093C86C /* CustomAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +430,7 @@
 				AB87A6961A0680C80093C86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB87A6971A0680C80093C86C /* Build configuration list for PBXNativeTarget "CustomAlertDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				AB87A6991A0680C80093C86C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
